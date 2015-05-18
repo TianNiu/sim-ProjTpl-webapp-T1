@@ -1,0 +1,36 @@
+@charset "utf-8";
+/**
+ * COPYRIGHT 2015, USTC SINOVATE SOFTWARE ALL RIGHTS RESERVED.
+ * by SINOVATE-UED.
+ */
+//import compass/xxx
+@import "compass/css3";
+@import "compass/utilities/sprites";
+
+/* foundation*/
+//@import "foundation/reset";
+@import "foundation/helpers";
+@import "foundation/config";
+@import "foundation/base";
+@import "foundation/helpers/placeholder";
+
+/* foundation,end*/
+
+/* component*/
+//@import "component/tab";
+//@import "component/table";
+/* >>custom_plugin*/
+//@import "component/custom_plugin/pluginnamexxx";
+/* >>custom_plugin,end*/
+
+/* component,end*/
+
+/* structure*/
+//@import "structure/common";
+@import "structure/header";
+@import "structure/index";
+@import "structure/footer";
+
+
+
+/* structure,end*/

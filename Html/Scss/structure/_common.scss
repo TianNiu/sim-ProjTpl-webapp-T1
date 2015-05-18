@@ -1,0 +1,42 @@
+///page common
+///userinfo
+.userinfo {
+    border: 1px solid #ddd;
+    @include border-radius(4px);
+    position: relative;
+    color: #333;
+    margin: pxToEm(12px);
+    .avatar {
+        $avatar_img_height:74;
+        height: pxToEm(74);
+        width: pxToEm(74);
+        position: absolute;
+        top: 50%;
+        left: pxToEm(18px);
+        margin-top: pxToEm(- $avatar_img_height / 2);
+        vertical-align: middle;
+        img {
+            //width: 100%;
+            //height: 100%;
+       
+        }
+    }
+    .descri {
+        padding: 1em 0em 1em pxToEm(100px);
+        dt {
+            font-size: pxToEm(16px);
+            ///font base
+            //margin-top: pxToEm(10, 16px);
+       
+        }
+        dd {
+            font-size: pxToEm(15px);
+            ///font base
+       
+        }
+        i {
+            color: #f89458;
+            margin-right: pxToEm(9px);
+        }
+    }
+}

@@ -1,0 +1,31 @@
+///header
+.header {
+    background-color: red;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: #fff;
+    text-align: center;
+    //position: relative;
+    ///font base
+    font-size: pxToEm(15);
+    height: pxToEm(43px, 15);
+    line-height: pxToEm(43px, 15);
+    .back, .menu {
+        height: pxToEm(43px, 17);
+        line-height: pxToEm(43px, 17);
+        position: absolute;
+        ///font base
+        font-size: pxToEm(17, 15);
+    }
+    ///后退按钮
+    .back {
+        left: pxToEm(15px, 15);
+    }
+    ///
+    .menu {
+        right: pxToEm(15px, 15);
+    }
+}

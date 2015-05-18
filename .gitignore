@@ -1,0 +1,5 @@
+/Html/.sass-cache
+/Html/node_modules
+/Html/*.log
+/Html/Release
+*.log
