@@ -9,7 +9,7 @@
     * main.css:样式主文件。
 
 * js/(js文件)
-    * jquery-1.9.1.min.js:jquery库。
+    * jquery-2.1.4.min.js:jquery库。
     * main.js:js主文件。
 
 * plugin文件夹:存放使用到的js插件(包含libjs和默认样式文件)。

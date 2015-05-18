@@ -6,7 +6,7 @@ var findit = require('findit');
 //引入配置
 var Config = require("./Config");
 //这些目录下的readme.txt文件需要删除
-var paths_to_rm = [Config.page_dir, Config.plugin_dir];
+var paths_to_rm = [Config.page_dir, Config.plugin_dir, Config.img_dir];
 /**
  * 删除指定目录下的readme.txt文件
  * @return {[type]} [description]

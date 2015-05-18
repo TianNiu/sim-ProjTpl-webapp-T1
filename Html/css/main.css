@@ -13,13 +13,13 @@
 
 .fr, .right { float: right; }
 
-.ttct { text-align: center; }
+.ttct { text-align: center !important; }
 
 .ttl { text-align: left !important; }
 
 .ttr { text-align: right !important; }
 
-.ttbd { font-weight: bold; }
+.ttbd { font-weight: bold !important; }
 
 *, *:before, *:after { -moz-box-sizing: inherit; -webkit-box-sizing: inherit; box-sizing: inherit; -webkit-text-size-adjust: none; }
 
@@ -46,6 +46,8 @@ table { width: 100%; }
 .header .back { left: 1em; }
 .header .menu { right: 1em; }
 
+/* >>index*/
+/* >>index,end*/
 .footer { position: fixed; bottom: 0px; right: 0px; left: 0px; background-color: #f9f9f9; border-top: 2px solid #e9e9e9; }
 .footer ul li { float: left; width: 20%; }
 .footer .fa { display: block; font-size: 1.5em; text-align: center; }
